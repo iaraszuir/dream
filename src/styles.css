@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(./app/reset/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+:root {
+    --colorPrincipal: #6c648b;
+    --colorSecundario: #b6a19e;
+    --colorTerciario: #6bbaa7;
+    --fuentePrincipal: Roboto:wght@0, 400;
+    --fuenteSecundaria: Roboto:ital, wght@0;
+}
+
+* {
+    box-sizing: border-box;
+}

@@ -1,0 +1,56 @@
+.navBar {
+    background-color: var(--colorPrincipal);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav ul li {
+    padding: 20px;
+    margin: 5px;
+    color: var(--colorSecundario);
+    font-size: 1.3em;
+    border: 2px solid var(--colorTerciario);
+    border-radius: 10px;
+}
+
+.nav ul li:hover {
+    border: 2px solid var(--colorSecundario);
+    color: var(--colorTerciario);
+}
+
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo i {
+    font-size: 7em;
+    padding: 20px;
+    color: var(--colorSecundario);
+}
+
+.logo h1 {
+    color: var(--colorTerciario);
+    padding: 10px;
+    font-family: var(--fuentePrincipal);
+    font-size: 3em;
+}
+
+.logo h2 {
+    color: var(--colorTerciario);
+    font-family: var(--fuenteSecundaria);
+    font-size: 1.2em;
+}
